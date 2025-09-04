@@ -1,6 +1,6 @@
 from keras.utils import load_img, img_to_array
 
-largo, alto = 300, 200
+largo, alto = 300, 400
 
 file = "../../Archivos/Imagenes/gafas.jpg"
 

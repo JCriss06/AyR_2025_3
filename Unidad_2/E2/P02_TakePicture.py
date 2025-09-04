@@ -1,11 +1,11 @@
 import cv2  ##opencv
-cam = cv2.VideoCapture(1) ##videocamara ---
+cam = cv2.VideoCapture(0) ##videocamara ---
 contFotos = 100
 
 face_classifier = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
-path = "../../Archivos/Images/"
+path = "../../Archivos/Imagenes/"
 
 def face_detect_box(image):
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

@@ -1,6 +1,10 @@
 from keras.utils import load_img
 
-largo, alto = 300, 200
+# dimensiones para que la imagen se pueda ver bien con bajos pixeles (aceptable)
+#200, 300
+#300, 400
+
+largo, alto = 300, 400
 
 file = "../../Archivos/Imagenes/gafas.jpg"
 
