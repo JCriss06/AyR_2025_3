@@ -1,0 +1,37 @@
+PROYECTO UNIDAD 2: 1.TENSORFLOW
+acurracy: que tan bueno fue la red para clasificar esas imágenes 
+	9.36  = solo 91.44 aprendió, ósea que es buena
+
+lost: que tanta perdida tuvo 
+validationacurracy: casos que no conoce y debe de aprender o resolver
+	acurrecy > validationacurrecy solo se sabe de memoria lo que sabe(overfiting) (no comprende)
+
+
+85% de validación para que se considere buena = PREDECIR.py
+
+valores a considerar a cambiar 
+época 
+alto, largo
+pasos
+kernel
+lerning rate (lr)
+capas (ley primera convolucional)
+dropout
+
+lo que se espera: la configuración de una mejor validación de los datos
+
+
+OPENCV
+entrenamiento por opencv (5min.)
+
+
+Entender lo que significan los datos
+accuracy: Precisión del modelo en los datos de entrenamiento (qué tan bien clasifica).
+loss: Pérdida en entrenamiento (qué tan mal predice; menor es mejor).
+val_accuracy: Precisión en los datos de validación (qué tan bien generaliza el modelo).
+val_loss: Pérdida en validación.
+
+Eficiencias registradas
+modelo.keras = Efficiency:  27.82608695652174
+modelo_v2.keras = Efficiency:  25.0
+
